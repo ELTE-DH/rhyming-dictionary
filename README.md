@@ -23,15 +23,15 @@ The rhyming dictionary were generated automatically on the basis of [_ELTE Poetr
    - `@msd`: morphosyntactic features ([Universal Dependencies](https://universaldependencies.org/))
    - `@numSyll`: syllable number
    - `@phonStruct`: phonological representation of the word
-      	- `c`: consonant
-	- `b`: short back vowel
-	- `B`: long back vowel
-	- `f`: short front vowel
-	- `F`: long front vowel
+        - `c`: consonant
+        - `b`: short back vowel
+        - `B`: long back vowel
+        - `f`: short front vowel
+        - `F`: long front vowel
    - `@phonType`: type of vowels in the word
-	- `low`: only back vowels in the word
-	- `high`: only front vowels in the word
-	- `mixed`: front and back vowels in the word
+        - `low`: only back vowels in the word
+        - `high`: only front vowels in the word
+        - `mixed`: front and back vowels in the word
    - `@pos`: part of speech ([Universal Dependencies](https://universaldependencies.org/))
    - `@word_id`: ID of the word in ELTE Poetry Corpus
 - `<rhymeWord2>`: the other rhyming word in the rhyme pair
@@ -41,23 +41,23 @@ The rhyming dictionary were generated automatically on the basis of [_ELTE Poetr
 
 ## The columns of the TSV:
 
-- wordform1: one rhyming word in the rhyme pair
-- wordform2: the other rhyming word in the rhyme pair
-- lemma1: lemma of wordform1
-- pos1: part of speech of wordform1
-- lemma2: lemma of wordform2
-- pos2: part of speech of wordform2
-- between_rhymes: number of lines rhyming with the rhyming pair between the two words of the rhyming pair
-- distance: distance of the two rhyming words 
-- author: author of the poem in which the rhyme pair occurs
-- title: title of the poem in which the rhyme pair occurs 
-- stanza_id: ID of the stanza in which the rhyme pair occurs 
-- poem_id: ID of the poem in which the rhyme pair occurs 
-- url: URL of the poem in which the rhyme pair occurs
+- `wordform1`: one rhyming word in the rhyme pair
+- `wordform2`: the other rhyming word in the rhyme pair
+- `lemma1`: lemma of wordform1
+- `pos1`: part of speech of wordform1
+- `lemma2`: lemma of wordform2
+- `pos2`: part of speech of wordform2
+- `between_rhymes`: number of lines rhyming with the rhyming pair between the two words of the rhyming pair
+- `distance`: distance of the two rhyming words 
+- `author`: author of the poem in which the rhyme pair occurs
+- `title`: title of the poem in which the rhyme pair occurs 
+- `stanza_id`: ID of the stanza in which the rhyme pair occurs 
+- `poem_id`: ID of the poem in which the rhyme pair occurs 
+- `url`: URL of the poem in which the rhyme pair occurs
 
 ## The fields of the PDF files:
 
-__rhyming\_word\_1 – rhyming\_word\_2__ (lemma1, part\_of\_speech\_1 – lemma2, part\_of_speech\_2), Author: _The first 4 words of the poem title_ serial number of the poem (distance of the two rhyming words, number of lines rhyming with the rhyming pair between the two words of the rhyming pair)
+__rhyming\_word\_1 – rhyming\_word\_2__ (lemma1, part\_of\_speech\_1 – lemma2, part\_of_speech\_2), Author: _The first 4 words of the poem title_ serial number of the stanza (distance of the two rhyming words, number of lines rhyming with the rhyming pair between the two words of the rhyming pair)
 
 ## Creator:
 
