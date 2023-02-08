@@ -39,7 +39,7 @@ The rhyming dictionary were generated automatically on the basis of [_ELTE Poetr
 - `<title>`: title of the poem in which the rhyme pair occurs 
 - `<url>`: URL of the poem in which the rhyme pair occurs
 
-## The columns of the TSV:
+## Columns of the TSV:
 
 - `wordform1`: one rhyming word in the rhyme pair
 - `wordform2`: the other rhyming word in the rhyme pair
@@ -55,7 +55,7 @@ The rhyming dictionary were generated automatically on the basis of [_ELTE Poetr
 - `poem_id`: ID of the poem in which the rhyme pair occurs 
 - `url`: URL of the poem in which the rhyme pair occurs
 
-## The fields of the PDF files:
+## Fields of the PDF files:
 
 __rhyming\_word\_1 – rhyming\_word\_2__ (lemma1, part\_of\_speech\_1 – lemma2, part\_of_speech\_2), Author: _The first 4 words of the poem title_ serial number of the stanza (distance of the two rhyming words, number of lines rhyming with the rhyming pair between the two words of the rhyming pair)
 
