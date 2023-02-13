@@ -5,6 +5,7 @@ The rhyming dictionary were generated automatically on the basis of [_ELTE Poetr
 ## Formats:
 
 - rhyming\_dictionary\_XML.zip: The compressed file contains the XML version of the rhyming dictionary. The file must be unzipped after downloading.
+- rhyming\_dictionary\_SQLite.zip: The compressed file contains the SQLite version of the rhyming dictionary. The file must be unzipped after downloading.
 - rhyming_dictionary.tsv: The TSV file contains the rhyming dictionary in a tabular format. This version is suitable for use in spreadsheet software.
 - rhymingDict_PDF: The folder contains the PDF version of the rhyming dictionary in several files. This version is suitable for manual reading.
 
@@ -39,14 +40,30 @@ The rhyming dictionary were generated automatically on the basis of [_ELTE Poetr
 - `<title>`: title of the poem in which the rhyme pair occurs 
 - `<url>`: URL of the poem in which the rhyme pair occurs
 
-## Columns of the TSV:
+## Columns of the TSV and SQlite files:
 
 - `wordform1`: one rhyming word in the rhyme pair
 - `wordform2`: the other rhyming word in the rhyme pair
 - `lemma1`: lemma of wordform1
-- `pos1`: part of speech of wordform1
 - `lemma2`: lemma of wordform2
+- `pos1`: part of speech of wordform1 ([Universal Dependencies](https://universaldependencies.org/))
 - `pos2`: part of speech of wordform2
+- `msd1`: morphosyntactic features of wordform1 ([Universal Dependencies](https://universaldependencies.org/))
+- `msd2`: morphosyntactic features of wordform2
+- `num_syll1`: syllable number of wordform1
+- `num_syll2`: syllable number of wordform2
+- `phon_type1`: type of vowels in wordform1
+   - `low`: only back vowels in the word
+   - `high`: only front vowels in the word
+   - `mixed`: front and back vowels in the word
+- `phon_type2`: type of vowels in wordform2
+- `phonStruct1`: phonological representation of wordform1
+   - `c`: consonant
+   - `b`: short back vowel
+   - `B`: long back vowel
+   - `f`: short front vowel
+   - `F`: long front vowel
+- `phonStruct_2`: phonological representation of wordform2
 - `between_rhymes`: number of lines rhyming with the rhyming pair between the two words of the rhyming pair
 - `distance`: distance of the two rhyming words 
 - `author`: author of the poem in which the rhyme pair occurs
