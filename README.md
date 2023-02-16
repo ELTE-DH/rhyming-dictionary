@@ -64,6 +64,8 @@ The rhyming dictionary were generated automatically on the basis of [_ELTE Poetr
    - `f`: short front vowel
    - `F`: long front vowel
 - `phonStruct_2`: phonological representation of wordform2
+- `word_id1`: ID of wordform1
+- `word_id2`: ID of wordform2
 - `between_rhymes`: number of lines rhyming with the rhyming pair between the two words of the rhyming pair
 - `distance`: distance of the two rhyming words 
 - `author`: author of the poem in which the rhyme pair occurs
