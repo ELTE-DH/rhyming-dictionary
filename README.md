@@ -42,6 +42,7 @@ The rhyming dictionary were generated automatically on the basis of [_ELTE Poetr
 
 ## Columns of the TSV and SQlite files:
 
+- `id_rhyme_pair`: id number of the rhyme pair
 - `wordform1`: one rhyming word in the rhyme pair
 - `wordform2`: the other rhyming word in the rhyme pair
 - `lemma1`: lemma of wordform1
@@ -57,13 +58,13 @@ The rhyming dictionary were generated automatically on the basis of [_ELTE Poetr
    - `high`: only front vowels in the word
    - `mixed`: front and back vowels in the word
 - `phon_type2`: type of vowels in wordform2
-- `phonStruct1`: phonological representation of wordform1
+- `phon_struct1`: phonological representation of wordform1
    - `c`: consonant
    - `b`: short back vowel
    - `B`: long back vowel
    - `f`: short front vowel
    - `F`: long front vowel
-- `phonStruct_2`: phonological representation of wordform2
+- `phon_struct_2`: phonological representation of wordform2
 - `word_id1`: ID of wordform1
 - `word_id2`: ID of wordform2
 - `between_rhymes`: number of lines rhyming with the rhyming pair between the two words of the rhyming pair
