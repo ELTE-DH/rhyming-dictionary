@@ -5,7 +5,7 @@ The rhyming dictionary were generated automatically on the basis of [_ELTE Poetr
 ## Formats:
 
 - rhyming\_dictionary\_XML.zip: The compressed file contains the XML version of the rhyming dictionary. The file must be unzipped after downloading.
-- rhyming_dictionary.tsv: The compressed file contains the rhyming dictionary in a tabular format. This version is suitable for use in spreadsheet software. The file must be unzipped after downloading.
+- rhyming_dictionary\_TSV.zip: The compressed file contains the rhyming dictionary in a tabular format. This version is suitable for use in spreadsheet software. The file must be unzipped after downloading.
 - rhyming\_dictionary\_SQLite.zip: The compressed file contains the SQLite version of the rhyming dictionary. This version is suitable for use in database systems. The file must be unzipped after downloading.
 - rhyming\_dictionary\_PDF: The folder contains the PDF version of the rhyming dictionary in several files. This version is suitable for manual reading.
 
