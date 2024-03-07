@@ -83,9 +83,5 @@ __rhyming\_word\_1 – rhyming\_word\_2__ (lemma1, part\_of\_speech\_1 – lemma
 
 [Péter Horváth](https://github.com/horvathpeti99)
 
-## License:
-
-The content of the repository is licensed under the [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.
-
 
 
