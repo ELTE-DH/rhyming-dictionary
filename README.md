@@ -1,6 +1,10 @@
 # Rhyming Dictionary of Hungarian Canonical poetry:
 
-The rhyming dictionary were generated automatically on the basis of [_ELTE Poetry Corpus_](https://github.com/ELTE-DH/poetry-corpus), which is a database containing all the poems of 50 Hungarian canonical writers with the annotations of grammatical properties and poetic features related to sound devices.
+The rhyming dictionary were generated automatically on the basis of [_ELTE Poetry Corpus_](https://github.com/ELTE-DH/poetry-corpus), which is a database containing all the poems of 53 Hungarian canonical writers with the annotations of grammatical properties and poetic features related to sound devices.
+
+## Size:
+
+650 561 rhyme pairs and their grammatical, phonological and positional features described below
 
 ## Formats:
 
@@ -78,6 +82,10 @@ The rhyming dictionary were generated automatically on the basis of [_ELTE Poetr
 ## Fields of the PDF files:
 
 __rhyming\_word\_1 – rhyming\_word\_2__ (lemma1, part\_of\_speech\_1 – lemma2, part\_of_speech\_2), Author: _The first 4 words of the poem title_ serial number of the stanza (distance of the two rhyming words, number of lines rhyming with the rhyming pair between the two words of the rhyming pair)
+
+## Licence:
+
+The content of the rhyming dictionary is licensed under the [CC BY-NC-ND](https://creativecommons.org/licenses/by-nc-nd/4.0/) license.
 
 ## Creator:
 
