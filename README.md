@@ -89,7 +89,7 @@ The content of the rhyming dictionary is licensed under the [CC BY-NC-ND](https:
 
 ## Creator:
 
-[Péter Horváth](https://github.com/horvathpeti99)
+Anonymized for peer review
 
 
 
